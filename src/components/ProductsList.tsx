@@ -5,7 +5,7 @@ import ProductType from "@/types/productType";
 
 const products = await getProducts();
 
-export default function ProductsList() {
+export default  function ProductsList() {
   return (
     <div>
       <div className="p-8 flex-1  bg-gray-100 ">
